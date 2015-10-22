@@ -1,0 +1,24 @@
+.background    { background: url("https://twistedsifter.files.wordpress.com/2013/05/animated-gifs-of-fighting-game-backgrounds-8.gif");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(126, 30, 31); }
+.wall          { background: rgb(30, 30, 31);  }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89); }
+.player { background: url("http://gamefroot.com/wp-content/files/2013/07/CannonBall.png"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url("http://gamefroot.com/wp-content/files/2013/07/CannonBall.png");
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
